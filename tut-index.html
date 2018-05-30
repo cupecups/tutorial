@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PS4EXPLOIT NOOBS TUTORIAL</title>
+    <style>
+      body {
+        font-family: 'Cutive Mono', monospace;
+      }
+    </style>
+</head>
+<body>
+<center>
+<br><br><br><br><br>
+<h1>PS4EXPLOIT NOOBS TUTORIAL</h1><br>
+            <span style="text-decoration:line-through"><h3>AKU MALU AKU TAKUT AKU SEDIH</h3>
+                <br>malas membaca artikel, malas buka google, malas buka youtube, maunya dikasih tau</span></br>
+        <br><br><br>
+        	<h2>1. cara update manual fw rendah ke fw 5.05:</h2>
+            <br><br>
+            ○ <a href="https://psarchive.darksoftware.xyz/505Retail.PUP" style="text-decoration : none; color : #730032;"><b>download</b></a> retail firmware 5.0x (bukan recovery)
+            <br><br>
+            ○ siapkan flashdisk kosong dan format dengan format eXFAT
+            <br><br>
+            ○ setelah file firmware sudah terdownload pastikan dengan nama "PS4UPDATE.PUP" without quotes
+            <br><br>
+            ○ setelah itu buat folder pada flasdisk dengan urutan seperti ini ./PS4/UPDATE dan copy fw kesini
+            <br><br>
+            ○ sudah ready, colok ke console dan matikan network connection (google it!!)
+            <br><br>
+            ○ masuk setting - system software update
+            <br><br>
+            ○ if following update 5.05 lanjutkan update
+            <br><br>
+            ○ tunggu sampai update selesai lalu restart dan proses update selesai
+            <br><br>
+            ○ untuk aktiv kan HEN bisa akses melalui web console ke <a href="https://cupecups.github.io/hen" style="text-decoration : none; color : #730032;"><b>SINI</b></a> atau <br> download esp bin firmware <a href="https://github.com/cupecups/esphost/releases/download/esphost/BLACKHAT-50x_CUPS-V31.bin" style="text-decoration : none; color : #730032;"><b>DISINI</b></a> (tutorial upgrade esp dongle dibawah)
+            <br><br>
+            ○ ENJOY
+            
+            <br><br><br>
+        	<h2>2. ps4 update error fix (SU-30634-6):</h2>
+            <br><br>
+            ○ nyalakan console kemudian konek internet / pakai DONGLE
+            <br><br>
+            ○ akses payload PS4XPLOIT buat 4.05/4.55 bisa ke <a href="https://cupecups.github.io/455/" style="text-decoration : none; color : #730032;"><b>DISINI</b></a> via WEB BROWSER console
+            <br><br>
+    		○ pilih payload FTP 
+    		<br><br>
+    		○ saat payload FTP success akan muncul splash banner dikiri atas berisi , <b>IP</b> consolenya dan <b>PORT</b> nya
+    		<br><br>
+    		○ nyalakan PC/android/ios
+    		<br><br>
+    		○ download aplikasi FTP (saya kasih tau pakai windows download filezilla, gatau filezilla ? GOOGLE!!!!)
+    		<br><br>
+    		○ instal filezilla - new connection diatas column - isi IP console - pass dan username kosongkan - masukan PORT console
+    		<br><br>
+    		○ MISAL IP : <b>192.168.21.21</b> PORT <b>1337</b>
+    		<br><br>
+    		○ PILIH QUICK CONNECT
+            <br><br>
+    		○ buka root folder console (table kanan) buka folder "UPDATE"
+    		<br><br>
+    		○ <b>HAPUS 2 FOLDER DENGAN NAMA "PS4UPDATE.PUP" dan "PS4UPDATE.PUP.temp.net"</b>
+    		<br><br>
+    		○ RESTART console kemudian konek internet / pakai DONGLE
+    		<br><br>
+    		○ pilih payload "ENABLE UPDATE" tunggu samapai selesai "you are set"
+    		<br><br>
+    		○ <b>baru lakukan update manual dari step awal pada tutorial 1</b>
+            <br><br><br>
+        	<h2>3. cara update ESP DONGLE</h2>
+            <br><br>
+            ○ <a href="https://github.com/cupecups/esphost/releases/download/esphost/BLACKHAT-50x_CUPS-V31.bin" style="text-decoration : none; color : #730032;">download 5.0x</a> atau <a href="https://github.com/cupecups/esphost/releases/download/esphost/CUPS-PS4XPLOIT_v2.bin" style="text-decoration : none; color : #730032;">download 4.55</a> untuk diflash kedongle ESP
+            <br><br>
+    		○ <a href="https://github.com/marcelstoer/nodemcu-pyflasher/releases/download/v3.0/NodeMCU-PyFlasher-3.0-x86.exe" style="text-decoration : none; color : #730032;">download 32bit</a> atau <a href="https://github.com/marcelstoer/nodemcu-pyflasher/releases/download/v3.0/NodeMCU-PyFlasher-3.0-x64.exe" style="text-decoration : none; color : #730032;">download 64bit</a> sesuai windows ELUH!
+              <br><br>
+    		○ colok dongle ESP ke PC dengan kabel usb yang berfungsi
+    		  <br><br>
+    		○ kalau sudah connect, buka device manager - other device - klik kanan pada usb 2.0 yang ada tanda seru
+    		  <br><br>
+    		○ klik kanan pada usb 2.0 - pilih update driver - select automatically update
+    		  <br><br>
+    		○ kalau pilih automatic tetep gabisa download driver bisa instal manual donwload disni <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers" style="text-decoration : none; color : #730032;">pilih sesuai OS</a>
+    		<br><br>
+    		○ RESTART PC
+    		<br><br>
+    		○ konek ulang esp ke pc
+    		<br><br>
+    		○ buka NODEMCU - pyflasher yang didownload tadi
+    		<br><br>
+    		○ pilih COM USB paling atas (com usb bisa dilihat didevice manager - other device - espxxx (COM3 atau COM4 sesuai port usb)
+    		<br><br>
+    		○ pilih ESP firmware download diatas buat 4.55 atau 5.0x
+    		<br><br>
+    		○ yang lain default aja kemudian centang "yes wipe all user data"
+    		<br><br>
+    		○ FLASH lalu coba
+    		<br><br>
+    		○ ENJOY
+            <br><br><br>
+            <h2>MAAF TUTORIAL INI GA PAKAI GAMBAR KARENA SAYA MALAS</h2><br><br>
+            <a href="https://discord.gg/D5HBFTr">JOIN DISCORD</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/uccops">FOLLOW AKUH</a><br><br>
+            
+                 <p><h5>tutututut by <a href="https://www.facebook.com/cupecups" style="text-decoration : none; color : #730032;">cupecups</a></h5></p><br>
+</center>                 
+</body>
+</html>
